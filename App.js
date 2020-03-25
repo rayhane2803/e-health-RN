@@ -8,7 +8,7 @@ import { CreateStackNavigator } from '@react-navigation/stack';
 import { Provider as PaperProvider } from 'react-native-paper';
 
 import BottomTabNavigator from './navigation/BottomTabNavigator';
-import userLinking from './navigation/useLinking';
+import useLinking from './navigation/useLinking';
 import LoginScreen from './screens/LoginScreen';
 
 const Stack = createStackNavigator();
